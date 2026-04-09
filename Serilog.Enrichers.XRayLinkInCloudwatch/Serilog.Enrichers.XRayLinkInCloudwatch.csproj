@@ -8,11 +8,12 @@
 
 		<!-- Package metadata -->
 		<PackageId>Serilog.Enrichers.XRayLinkInCloudwatch</PackageId>
-		<Version>1.0.1</Version>
+		<Version>1.0.2</Version>
 		<Authors>Pedro Zamarioli</Authors>
 		<Product>Serilog.Enrichers.XRayLinkInCloudwatch</Product>
-		<Description>Serilog enricher that adds a clickable AWS X-Ray URL to Cloudwatch logs based on TraceId.</Description>
+		<Description>Serilog enricher that adds the AWS X-Ray URL to Cloudwatch logs based on TraceId.</Description>
 		<PackageTags>Serilog,AWS,Cloudwatch,XRay,Logging,Trace</PackageTags>
+		<PackageProjectUrl>https://github.com/pedrozamarioli/Serilog.Enrichers.XRayLinkInCloudwatch</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/pedrozamarioli/Serilog.Enrichers.XRayLinkInCloudwatch</RepositoryUrl>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 
@@ -28,7 +29,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<None Include="README.md" Pack="true" PackagePath="\" />
+		<None Include="..\README.md" Pack="true" PackagePath="\" />
 	</ItemGroup>
 
 </Project>
