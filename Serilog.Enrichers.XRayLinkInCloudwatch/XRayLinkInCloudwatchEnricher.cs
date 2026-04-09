@@ -8,7 +8,7 @@ public class XRayLinkInCloudwatchEnricher : ILogEventEnricher
 {
     private readonly string _region;
 
-    public XRayLinkInCloudwatchEnricher(string awsRegion = null)
+    public XRayLinkInCloudwatchEnricher(string? awsRegion = null)
     {
         // Detect AWS region from parameter, then environment variables
         _region = awsRegion

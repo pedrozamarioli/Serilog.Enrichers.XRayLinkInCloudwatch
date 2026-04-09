@@ -6,7 +6,7 @@ public static class LoggerEnrichmentConfigurationExtensions
 {
     public static LoggerConfiguration WithXRayLinkInCloudwatch(
         this LoggerEnrichmentConfiguration enrichmentConfiguration,
-        string awsRegion = null)
+        string? awsRegion = null)
     {
         return enrichmentConfiguration.With(new XRayLinkInCloudwatchEnricher(awsRegion));
     }
